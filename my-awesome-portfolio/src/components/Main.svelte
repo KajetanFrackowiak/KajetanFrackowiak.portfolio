@@ -3,41 +3,117 @@
 
     let steps = [
         {
-            name: "Smoljames Store",
-            icon: "fa-solid fa-cart-shopping",
+            name: "Deep Learning Specialization",
+            icon: "fa-solid fa-brain",
             description:
-                "Smoljames Store is a a merchanising store created with Next.js, Commerce.js & Stripe! Commerce.js is a CMS for managing project and Stripe is used for all transaction handling.",
+                "A package of projects created following Andrew Ng's advice, related to deep learning with Tensorflow.",
+            githubLink:
+                "https://github.com/KajetanFrackowiak/DeepLearningSpecialization",
         },
         {
-            name: "Utlimate Todos",
-            icon: "fa-solid fa-list-check",
+            name: "Machine Learning Specialization",
+            icon: "fa-solid fa-robot",
             description:
                 "Test for model robustness with customized test profiles and receive exhaustive reporting on the performance and potential vulnerabilities of your model.",
+            githubLink: "https://github.com/KajetanFrackowiak/freeCodeCamp",
         },
         {
-            name: "Pokédex",
-            icon: "fa-solid fa-diagram-project",
+            name: "K-Means Clustering from Scratch",
+            icon: "fa-solid fa-network-wired",
             description:
                 "Augment your datasets with our filters and dataset manipulations to ensure your models are trained on the highest quality datasets (coming soon).",
+            githubLink:
+                "https://github.com/KajetanFrackowiak/PropertiesofCompactGroupsofGalaxies",
         },
     ];
 
+    // let certifications = [
+    //     {
+    //         title: "Introduction to Java",
+    //         provider: "JetBrains Academy",
+    //         issued: "nov 2023",
+    //         skills: ["Java"],
+    //     },
+    //     {
+    //         title: "Introduction to JavaScript",
+    //         provider: "JetBrains Academy",
+    //         issued: "nov 2023",
+    //         skills: ["JavaScript"],
+    //     },
+    //     {
+    //         title: "Machine Learning with Python",
+    //         provider: "freeCodeCamp",
+    //         issued: "nov 2023",
+    //         skills: ["TensorFlow", "Machine Learning", "Python"],
+    //     },
+    //     {
+    //         title: "Deep Learning Specialization",
+    //         provider: "Coursera",
+    //         issued: "sep 2023",
+    //         skills: [
+    //             "Sequence Models",
+    //             "TensorFlow",
+    //             "Improving Deep Neural Networks",
+    //             "Convolutional Neural Networks (CNN)",
+    //             "Python",
+    //         ],
+    //     },
+    //     {
+    //         title: "Introduction to Python",
+    //         provider: "JetBrains Academy",
+    //         issued: "sep 2023",
+    //         skills: ["Python"],
+    //     },
+    //     {
+    //         title: "Introduction to SQL",
+    //         provider: "JetBrains Academy",
+    //         issued: "sep 2023",
+    //         skills: ["SQL"],
+    //     },
+    // ];
+
     let benefits = [
         {
-            metric: "10x",
-            name: "a self taught developer",
+            name: "Data Science Explorer",
+            icon: "fas fa-chart-bar",
             description:
-                "I taught myself to code using free online resources and absolutely fell in love with the creativity and problem solving that is involved in developing and engineering innovative new online experiences. Starting of with JavaScript, HTML & CSS and evolving my knowledge base to include JavaScript frameworks, backend programming, design, cloud services and much much more.",
+                "I enjoy tinkering with data, crafting algorithms, and unraveling hidden patterns to make sense of the numbers. It's like solving puzzles, but with data!",
         },
         {
-            name: "a product design & UX finatic",
+            name: "Machine Learning Tinkerer",
+            icon: "fas fa-robot",
             description:
-                "Carefully crafting and designing amazing user experiences allows me to express and experiment with every morsel of creativity I have. I love the challenge of learning new design concepts and enabling users with amazing online experiences.",
+                "I'm all about playing with Machine Learning, making things learn and adapt. Think of it like teaching computers some cool tricks! It's a bit like magic, but with more code.",
         },
         {
-            name: "an excellent communicator",
+            name: "Deep Learning Adventurer",
+            icon: "fas fa-globe",
             description:
-                "Communication is key and it's a paramount value of mine. I believe in transparency and constructive communication above all else. This helps me develop deep relationships and ensures my effectiveness and productivity in any work space with any team.",
+                "In the vast universe of Deep Learning, I'm on a quest to design, train, and optimize neural networks using cool tools like OpenCV, Pandas, Numpy, Scipy, and Matplotlib. It's a bit like training a digital brain to do awesome things!",
+        },
+        {
+            name: "Python Enthusiast",
+            icon: "fab fa-python",
+            description:
+                "My go-to language is Python. It's like the Swiss Army knife for coding - handy, versatile, and perfect for all sorts of adventures! Python helps me bring my ideas to life in the digital world.",
+        },
+        {
+            name: "Linux Enthusiast",
+            icon: "fab fa-linux",
+            description:
+                "I'm passionate about Linux. Exploring its open-source ecosystem, customizing my workspace, and embracing the power of the command line are some of my favorite Linux adventures. The penguin (Tux) is my coding companion!",
+        },
+        {
+            name: "Communication and Interests",
+            icon: "fas fa-comments",
+            description:
+                "Beyond coding, I value effective communication in a professional setting. I believe in the power of clear, concise, and friendly communication. Whether it's collaborating on a project, presenting ideas, or explaining complex concepts, I strive to foster a positive and collaborative environment in any work setting. Let's connect and share ideas!",
+        },
+        {
+            name: "Additional Interests",
+            icon: "fas fa-chess",
+            description:
+                "Outside of work, you might find me strategizing on a chessboard or exploring the mysteries of the cosmos. I have a keen interest in languages, and I'm always eager to learn something new!",
         },
     ];
 </script>
@@ -53,28 +129,34 @@
             <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
                 Hi! I'm <span class="poppins text-violet-400">Kajetan</span>
                 Frąckowiak
-                <br /> IT Student Passionate About
-                <span class="poppins text-violet-400">AI</span>
+                <br /> Passionate about
+                <span class="poppins text-violet-400">Deep Learning</span>
             </h2>
             <p class="text-base sm:text-lg md:text-xl">
-                As a student and aspiring DL junior programmer, I <span
-                    class="text-violet-400"
-                >
-                    focus</span
-                > on Python (TensorFlow, PyTorch) and DL/ML algorithms.
+                My <span class="text-violet-400"> favorite tech</span> includes Python
+                (Tensorflow, Keras, Pytorch, Scikit-learn, Pandas, Linux) or Weight
+                & Biases!
             </p>
             <button
                 class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950"
+                onclick="redirectGitHub()"
             >
                 <div
                     class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
-                />
-                <h4 class="relative z-9">Get in touch &rarr;</h4>
+                ></div>
+                <h4 class="relative z-9">GIT &rarr;</h4>
             </button>
+
+            <script>
+                function redirectGitHub() {
+                    window.location.href =
+                        "https://github.com/KajetanFrackowiak";
+                }
+            </script>
         </div>
         <div class="relative shadow-2xl grid place-items-center">
             <img
-                src={"images/kajetan.png"}
+                src={"images/profile.png"}
                 alt="Zetane Engine"
                 class="object-cover z-[2] max-h-[70vh]"
             />
@@ -104,46 +186,32 @@
                 Curious to <span class="poppins text-violet-400">see</span> my work?
             </h3>
         </div>
-        <a
-            href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-            target="_blank"
-            class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-violet-700 duration-200"
-        >
-            <i class="fa-regular fa-circle-play" />
-            <p>Watch the video</p>
-        </a>
+
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
             <Step step={steps[0]}>
                 <p>
-                    Smoljames Store is a a merchanising store created with <strong
-                        class="text-violet-400"
-                        >Next.js, Commerce.js, Stripe & Node.js + Express.js!</strong
-                    > Commerce.js is a product CMS and Stripe is used for all transaction
-                    handling.
+                    Embark on a journey through the realm of deep learning with
+                    a curated package of projects inspired by <strong>
+                        Andrew Ng's
+                    </strong>
+                    teachings, unraveling the intricacies of neural networks and
+                    their applications
                 </p>
             </Step>
             <Step step={steps[1]}>
                 <p>
-                    Ultimate Todos is a Full Stack <strong
-                        class="text-violet-400">Next.js</strong
-                    >,
-                    <strong class="text-violet-400">Node.js + Express.js</strong
-                    >
-                    & <strong class="text-violet-400">Firebase</strong> CRUD application
-                    that allows a user to login, manage a tidy and efficacious todo
-                    list, and persist this information across devices.
+                    Explored various aspects of machine learning in FreeCodeCamp
+                    projects, including cost regression, text classification for
+                    spam detection, and a book recommendation system.
                 </p>
             </Step>
+
             <Step step={steps[2]}>
                 <p>
-                    The Pokédex is a <strong class="text-violet-400"
-                        >SvelteKit & TailwindCSS</strong
-                    >
-                    web application, hosted on
-                    <strong class="text-violet-400">Netlify</strong>, that
-                    consumes and caches the
-                    <strong class="text-violet-400">Pokémon API</strong>
-                    to display all Pokémon information. Gotta catch them all!
+                    Dive into astrophysics with this project on Compact Groups
+                    of Galaxies (CGs). Use Python's statistical methods to
+                    explore galaxy merging and interactions. No prior knowledge
+                    needed — join for an enriching experience!
                 </p>
             </Step>
         </div>
