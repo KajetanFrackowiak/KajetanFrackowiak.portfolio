@@ -18,60 +18,15 @@
             githubLink: "https://github.com/KajetanFrackowiak/freeCodeCamp",
         },
         {
-            name: "K-Means Clustering from Scratch",
+            name: "Properties of Compact Groups of Galaxies",
             icon: "fa-solid fa-network-wired",
-            description:
-                "Augment your datasets with our filters and dataset manipulations to ensure your models are trained on the highest quality datasets (coming soon).",
+            description:"Delve into astrophysics with the project, unraveling the dynamics and behaviors of densely packed galaxy collections.",
             githubLink:
                 "https://github.com/KajetanFrackowiak/PropertiesofCompactGroupsofGalaxies",
         },
     ];
 
-    // let certifications = [
-    //     {
-    //         title: "Introduction to Java",
-    //         provider: "JetBrains Academy",
-    //         issued: "nov 2023",
-    //         skills: ["Java"],
-    //     },
-    //     {
-    //         title: "Introduction to JavaScript",
-    //         provider: "JetBrains Academy",
-    //         issued: "nov 2023",
-    //         skills: ["JavaScript"],
-    //     },
-    //     {
-    //         title: "Machine Learning with Python",
-    //         provider: "freeCodeCamp",
-    //         issued: "nov 2023",
-    //         skills: ["TensorFlow", "Machine Learning", "Python"],
-    //     },
-    //     {
-    //         title: "Deep Learning Specialization",
-    //         provider: "Coursera",
-    //         issued: "sep 2023",
-    //         skills: [
-    //             "Sequence Models",
-    //             "TensorFlow",
-    //             "Improving Deep Neural Networks",
-    //             "Convolutional Neural Networks (CNN)",
-    //             "Python",
-    //         ],
-    //     },
-    //     {
-    //         title: "Introduction to Python",
-    //         provider: "JetBrains Academy",
-    //         issued: "sep 2023",
-    //         skills: ["Python"],
-    //     },
-    //     {
-    //         title: "Introduction to SQL",
-    //         provider: "JetBrains Academy",
-    //         issued: "sep 2023",
-    //         skills: ["SQL"],
-    //     },
-    // ];
-
+    
     let benefits = [
         {
             name: "Data Science Explorer",
