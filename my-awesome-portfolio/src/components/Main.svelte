@@ -71,6 +71,7 @@
                 "Outside of work, you might find me strategizing on a chessboard or exploring the mysteries of the cosmos. I have a keen interest in languages, and I'm always eager to learn something new!",
         },
     ];
+    
 </script>
 
 <main class="flex flex-col flex-1 p-4">
