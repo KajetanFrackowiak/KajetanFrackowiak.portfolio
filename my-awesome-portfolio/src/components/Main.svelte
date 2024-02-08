@@ -3,26 +3,27 @@
 
     let steps = [
         {
-            name: "Deep Learning Specialization",
+            name: "GAN Specialization",
             icon: "fa-solid fa-brain",
             description:
-                "A package of projects created following Andrew Ng's advice, related to deep learning with Tensorflow.",
+                "A comprehensive suite of implementations for various Generative Adversarial Network (GAN) architectures and methodologies.",
             githubLink:
-                "https://github.com/KajetanFrackowiak/DeepLearningSpecialization",
+                "https://github.com/KajetanFrackowiak/GAN-Specialization.git",
         },
         {
-            name: "Machine Learning Specialization",
+            name: "Deep Learning with Tensorflow",
             icon: "fa-solid fa-robot",
             description:
-                "Test for model robustness with customized test profiles and receive exhaustive reporting on the performance and potential vulnerabilities of your model.",
-            githubLink: "https://github.com/KajetanFrackowiak/freeCodeCamp",
-        },
+                "The repository offers a wide array of TensorFlow implementations, spanning various machine learning models and techniques, providing a versatile resource for diverse applications within the field of artificial intelligence.",
+            githubLink: "https://github.com/KajetanFrackowiak/tensorflow_fundamentals.git",
+       },
         {
-            name: "Properties of Compact Groups of Galaxies",
+            name: "Deep Learning with Pytorch",
             icon: "fa-solid fa-network-wired",
-            description:"Delve into astrophysics with the project, unraveling the dynamics and behaviors of densely packed galaxy collections.",
+            description:
+                "Delve into pytorch with the projects, this repository has various pytorch mini proejcts.",
             githubLink:
-                "https://github.com/KajetanFrackowiak/PropertiesofCompactGroupsofGalaxies",
+                "https://github.com/KajetanFrackowiak/pytorch_deep_learning.git",
         },
     ];
 
